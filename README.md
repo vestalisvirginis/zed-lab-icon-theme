@@ -5,7 +5,7 @@
 
 <div align="center">
 
-[![GitHub License](https://img.shields.io/github/license/jmesrje/zed-charmed-icons?style=for-the-badge)](LICENSE)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg?style=for-the-badge)](LICENSE.md)
 ![GitHub Stars](https://img.shields.io/github/stars/jmesrje/zed-charmed-icons?style=for-the-badge&logo=github)
 
 <img src="assets/files.png" alt="Files" width="512" />
@@ -74,11 +74,11 @@ Charmed Icons draws inspiration from:
 ---
 
 <p align="center">
-Charmed Icons is released under the <a href="LICENSE">MIT License</a>.
+Charmed Icons is released under the <a href="LICENSE.md">Creative Commons Attribution 4.0 International License</a>.
 </p>
 
 <div align="center">
 
-[![MIT License](https://img.shields.io/github/license/jmesrje/zed-charmed-icons?style=for-the-badge)](LICENSE)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg?style=for-the-badge)](LICENSE.md)
 
 </div>
