@@ -1,7 +1,7 @@
-# CUSTOM.md — Recreating the "Dark" Icon Theme & Preview Sprite
+# CUSTOM.md — Recreating the "Chocolate" Icon Theme & Preview Sprite
 
 This document is an objective, reproducible specification for creating the
-**Dark Charmed Icons** theme and its preview sprite (`assets/dark.webp`).
+**Chocolate Charmed Icons** theme and its preview sprite (`assets/chocolate.webp`).
 
 It captures every final constraint used: theme name, icon colors, theme JSON
 structure, sprite layout, DPI, fonts, and label colors.
@@ -12,8 +12,8 @@ structure, sprite layout, DPI, fonts, and label colors.
 
 | Field | Value |
 | --- | --- |
-| Theme id / folder | `dark` |
-| Theme display name | `Dark Charmed Icons` |
+| Theme id / folder | `chocolate` |
+| Theme display name | `Chocolate Charmed Icons` |
 | Top-level extension name | `Charmed Icons` |
 | Appearance | `dark` |
 | Icon source | copy of `icons/base/` |
@@ -21,9 +21,9 @@ structure, sprite layout, DPI, fonts, and label colors.
 
 ---
 
-## 2. Icon set — `icons/dark/`
+## 2. Icon set — `icons/chocolate/`
 
-1. Copy every `.svg` from `icons/base/` into `icons/dark/`.
+1. Copy every `.svg` from `icons/base/` into `icons/chocolate/`.
 2. Recolor the primary palette to the dark brown **`#6D4C41`**.
 
 ### 2.1 Colors to replace with `#6D4C41`
@@ -50,28 +50,28 @@ Also keep the named values `black`, `white`, and `none` exactly as they are.
 
 ---
 
-## 3. Theme definition — `icon_themes/dark-theme.json`
+## 3. Theme definition — `icon_themes/chocolate-theme.json`
 
-1. Copy `icon_themes/base-theme.json` to `icon_themes/dark-theme.json`.
+1. Copy `icon_themes/base-theme.json` to `icon_themes/chocolate-theme.json`.
 2. Make these two replacements:
 
 | From | To |
 | --- | --- |
-| `"name": "Base Charmed Icons"` | `"name": "Dark Charmed Icons"` |
-| `./icons/base/` | `./icons/dark/` |
+| `"name": "Base Charmed Icons"` | `"name": "Chocolate Charmed Icons"` |
+| `./icons/base/` | `./icons/chocolate/` |
 
 3. Leave everything else identical (top-level name, `appearance: "dark"`,
    `file_stems`, `file_suffixes`, `file_icons`).
 
-Validation: all 119 referenced icon paths must exist in `icons/dark/`.
+Validation: all 119 referenced icon paths must exist in `icons/chocolate/`.
 
 ---
 
-## 4. Preview sprite — `assets/dark.webp`
+## 4. Preview sprite — `assets/chocolate.webp`
 
 ### 4.1 Source
 
-- All 119 SVGs from `icons/dark/`.
+- All 119 SVGs from `icons/chocolate/`.
 - Render order: alphabetical, left-to-right, top-to-bottom.
 
 ### 4.2 Sections
@@ -167,16 +167,16 @@ width  = 1140 × (200/72) ≈ 3167px
 height = 1184 × (200/72) ≈ 3289px
 ```
 
-Final file: `assets/dark.webp` at `3167 × 3289px`.
+Final file: `assets/chocolate.webp` at `3167 × 3289px`.
 
 ---
 
 ## 6. Verification checklist
 
-- [ ] 119 dark SVGs exist and are valid XML.
-- [ ] Dark SVGs contain only `#6D4C41`, `#372118`, `#AE3B3B`, `#B46138`,
+- [ ] 119 chocolate SVGs exist and are valid XML.
+- [ ] Chocolate SVGs contain only `#6D4C41`, `#372118`, `#AE3B3B`, `#B46138`,
       `#F2C57E`, plus `black`/`white`/`none`.
-- [ ] `dark-theme.json` is valid JSON and every referenced path exists.
+- [ ] `chocolate-theme.json` is valid JSON and every referenced path exists.
 - [ ] Sprite has 5 equally-spaced icon columns.
 - [ ] Top section has 24 file-icon rows; bottom section has 1 folder-icon row.
 - [ ] Section gap contains no content pixels.

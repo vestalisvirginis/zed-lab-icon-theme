@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-- Add `Dark Charmed Icons` theme with dark brown icon variants
+- Add `Chocolate Charmed Icons` theme with dark brown icon variants
 
 ## [0.7.1] - 2025-05-06
 
