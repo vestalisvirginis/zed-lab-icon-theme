@@ -19,6 +19,10 @@
   <img src="assets/base.webp"/>
 </details>
 <details>
+  <summary>🍫 Dark</summary>
+  <img src="assets/dark.webp"/>
+</details>
+<details>
   <summary>🥥 Light</summary>
   <img src="assets/light.webp"/>
 </details>
@@ -52,7 +56,7 @@ You can find my icons on the [Zed Marketplace](https://zed.dev/extensions?query=
 
 ### Icon Types
 
-There a 4 sets of icons available: Base, Light, Soft, and Warm. These can be chosen in the icon theme selector menu or set manually in your config file.
+There are 5 sets of icons available: Base, Dark, Light, Soft, and Warm. These can be chosen in the icon theme selector menu or set manually in your config file.
 
 ## 🙌 Requests (original repository)
 
