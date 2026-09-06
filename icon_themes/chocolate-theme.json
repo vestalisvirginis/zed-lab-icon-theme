@@ -4,8 +4,8 @@
     "author": "vestalisvirginis",
     "themes": [
         {
-            "name": "Chocolate Lab Icons",
-            "appearance": "dark",
+            "name": "Chocolate Charmed Icons",
+            "appearance": "light",
             "directory_icons": {
                 "collapsed": "./icons/chocolate/_folder.svg",
                 "expanded": "./icons/chocolate/_folder_open.svg"
