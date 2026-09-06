@@ -1,0 +1,201 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "IconThemeFamilyContent",
+  "description": "Proposed Zed icon theme schema (v0.4.0) that adds folder-name prefix/suffix matching and file-name prefix matching in addition to exact names.",
+  "type": "object",
+  "required": [
+    "author",
+    "name",
+    "themes"
+  ],
+  "properties": {
+    "author": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "themes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/IconThemeContent"
+      }
+    }
+  },
+  "definitions": {
+    "AppearanceContent": {
+      "type": "string",
+      "enum": [
+        "light",
+        "dark"
+      ]
+    },
+    "ChevronIconsContent": {
+      "type": "object",
+      "properties": {
+        "collapsed": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/String"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "expanded": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/String"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      }
+    },
+    "DirectoryIconsContent": {
+      "type": "object",
+      "properties": {
+        "collapsed": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/String"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "expanded": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/String"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      }
+    },
+    "IconDefinitionContent": {
+      "type": "object",
+      "required": [
+        "path"
+      ],
+      "properties": {
+        "path": {
+          "$ref": "#/definitions/String"
+        }
+      }
+    },
+    "IconThemeContent": {
+      "type": "object",
+      "required": [
+        "appearance",
+        "name"
+      ],
+      "properties": {
+        "appearance": {
+          "$ref": "#/definitions/AppearanceContent"
+        },
+        "chevron_icons": {
+          "default": {
+            "collapsed": null,
+            "expanded": null
+          },
+          "allOf": [
+            {
+              "$ref": "#/definitions/ChevronIconsContent"
+            }
+          ]
+        },
+        "directory_icons": {
+          "default": {
+            "collapsed": null,
+            "expanded": null
+          },
+          "allOf": [
+            {
+              "$ref": "#/definitions/DirectoryIconsContent"
+            }
+          ]
+        },
+        "named_directory_icons": {
+          "default": {},
+          "type": "object",
+          "description": "Icons for directories whose name matches the key exactly.",
+          "additionalProperties": {
+            "$ref": "#/definitions/DirectoryIconsContent"
+          }
+        },
+        "named_directory_prefix_icons": {
+          "default": {},
+          "type": "object",
+          "description": "Icons for directories whose name starts with the key. Example: a key \"Exp\" matches folders named \"Exp1\", \"Exp2\", \"Exp3\", etc. Exact names from named_directory_icons take precedence over prefixes.",
+          "examples": [
+            {
+              "Exp": {
+                "collapsed": "./icons/chocolate/folder-experiments.svg",
+                "expanded": "./icons/chocolate/folder-experiments-open.svg"
+              }
+            }
+          ],
+          "additionalProperties": {
+            "$ref": "#/definitions/DirectoryIconsContent"
+          }
+        },
+        "named_directory_suffix_icons": {
+          "default": {},
+          "type": "object",
+          "description": "Icons for directories whose name ends with the key. Example: a key \"_data\" matches folders named \"raw_data\", \"seq_data\", etc. Exact names take precedence over prefixes, which take precedence over suffixes.",
+          "additionalProperties": {
+            "$ref": "#/definitions/DirectoryIconsContent"
+          }
+        },
+        "file_icons": {
+          "default": {},
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/definitions/IconDefinitionContent"
+          }
+        },
+        "file_stems": {
+          "default": {},
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "file_prefixes": {
+          "default": {},
+          "type": "object",
+          "description": "Icons for files whose name starts with the key. Example: a key \"Exp\" matches files named \"Exp1.txt\", \"Exp2.fastq\", etc. Exact file_stems matches take precedence over prefixes, which take precedence over suffixes.",
+          "examples": [
+            {
+              "Exp": "experiment"
+            }
+          ],
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "file_suffixes": {
+          "default": {},
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "name": {
+          "type": "string"
+        }
+      }
+    },
+    "String": {
+      "type": "string"
+    }
+  }
+}

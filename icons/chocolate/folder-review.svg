@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<defs>
+		<mask id="cut">
+			<rect width="1024" height="1024" fill="#FFFFFF" />
+			<path d="M688 312v-48c0-4.4-3.6-8-8-8H296c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8h384c4.4 0 8-3.6 8-8" fill="black" />
+			<path d="M296 400c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8h184c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8" fill="black" />
+			<circle cx="652" cy="704" r="205" fill="black" />
+			<path d="M750 800L930 915" stroke="black" stroke-width="150" stroke-linecap="round" />
+		</mask>
+	</defs>
+	<g mask="url(#cut)">
+		<path fill="none" d="M440 852H208V148H768V492C768 496.4 771.6 500 776 500H832C836.4 500 840 496.4 840 492V108C840 90.3 825.7 76 808 76H168C150.3 76 136 90.3 136 108V892C136 909.7 150.3 924 168 924H440C444.4 924 448 920.4 448 916V860C448 855.6 444.4 852 440 852" />
+		<rect x="150" y="90" width="690" height="830" rx="24" fill="#6D4C41" />
+	</g>
+	<circle cx="652" cy="704" r="144" fill="none" stroke="#6D4C41" stroke-width="64" />
+	<path d="M792 810L886 904" fill="none" stroke="#6D4C41" stroke-width="60" stroke-linecap="round" />
+</svg>

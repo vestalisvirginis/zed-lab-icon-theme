@@ -1,10 +1,10 @@
 {
-    "$schema": "https://zed.dev/schema/icon_themes/v0.2.0.json",
-    "name": "Charmed Icons",
-    "author": "littensy",
+    "$schema": "https://zed.dev/schema/icon_themes/v0.3.0.json",
+    "name": "Lab Icons",
+    "author": "vestalisvirginis",
     "themes": [
         {
-            "name": "Light Charmed Icons",
+            "name": "Light Lab Icons",
             "appearance": "light",
             "directory_icons": {
                 "collapsed": "./icons/light/_folder.svg",

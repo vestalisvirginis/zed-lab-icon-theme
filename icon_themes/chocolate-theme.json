@@ -1,14 +1,224 @@
 {
-    "$schema": "https://zed.dev/schema/icon_themes/v0.2.0.json",
-    "name": "Charmed Icons",
-    "author": "littensy",
+    "$schema": "https://zed.dev/schema/icon_themes/v0.3.0.json",
+    "name": "Lab Icons",
+    "author": "vestalisvirginis",
     "themes": [
         {
-            "name": "Chocolate Charmed Icons",
+            "name": "Chocolate Lab Icons",
             "appearance": "dark",
             "directory_icons": {
                 "collapsed": "./icons/chocolate/_folder.svg",
                 "expanded": "./icons/chocolate/_folder_open.svg"
+            },
+            "named_directory_icons": {
+                "raw": {
+                    "collapsed": "./icons/chocolate/folder-raw.svg",
+                    "expanded": "./icons/chocolate/folder-raw-open.svg"
+                },
+                "Raw": {
+                    "collapsed": "./icons/chocolate/folder-raw.svg",
+                    "expanded": "./icons/chocolate/folder-raw-open.svg"
+                },
+                "processed": {
+                    "collapsed": "./icons/chocolate/folder-processed.svg",
+                    "expanded": "./icons/chocolate/folder-processed-open.svg"
+                },
+                "Processed": {
+                    "collapsed": "./icons/chocolate/folder-processed.svg",
+                    "expanded": "./icons/chocolate/folder-processed-open.svg"
+                },
+                "analysis": {
+                    "collapsed": "./icons/chocolate/folder-analysis.svg",
+                    "expanded": "./icons/chocolate/folder-analysis-open.svg"
+                },
+                "Analysis": {
+                    "collapsed": "./icons/chocolate/folder-analysis.svg",
+                    "expanded": "./icons/chocolate/folder-analysis-open.svg"
+                },
+                "analyses": {
+                    "collapsed": "./icons/chocolate/folder-analysis.svg",
+                    "expanded": "./icons/chocolate/folder-analysis-open.svg"
+                },
+                "Analyses": {
+                    "collapsed": "./icons/chocolate/folder-analysis.svg",
+                    "expanded": "./icons/chocolate/folder-analysis-open.svg"
+                },
+                "notebook": {
+                    "collapsed": "./icons/chocolate/folder-notebook.svg",
+                    "expanded": "./icons/chocolate/folder-notebook-open.svg"
+                },
+                "Notebook": {
+                    "collapsed": "./icons/chocolate/folder-notebook.svg",
+                    "expanded": "./icons/chocolate/folder-notebook-open.svg"
+                },
+                "notebooks": {
+                    "collapsed": "./icons/chocolate/folder-notebook.svg",
+                    "expanded": "./icons/chocolate/folder-notebook-open.svg"
+                },
+                "Notebooks": {
+                    "collapsed": "./icons/chocolate/folder-notebook.svg",
+                    "expanded": "./icons/chocolate/folder-notebook-open.svg"
+                },
+                "LabJournal": {
+                    "collapsed": "./icons/chocolate/folder-notebook.svg",
+                    "expanded": "./icons/chocolate/folder-notebook-open.svg"
+                },
+                "gels": {
+                    "collapsed": "./icons/chocolate/folder-gel.svg",
+                    "expanded": "./icons/chocolate/folder-gel.svg"
+                },
+                "nanodrop": {
+                    "collapsed": "./icons/chocolate/_folder.svg",
+                    "expanded": "./icons/chocolate/_folder_open.svg"
+                },
+                "sequencing": {
+                    "collapsed": "./icons/chocolate/folder-sequencing.svg",
+                    "expanded": "./icons/chocolate/folder-sequencing-open.svg"
+                },
+                "microscopy": {
+                    "collapsed": "./icons/chocolate/folder-microscopy.svg",
+                    "expanded": "./icons/chocolate/folder-microscopy-open.svg"
+                },
+                "Microscopy": {
+                    "collapsed": "./icons/chocolate/folder-microscopy.svg",
+                    "expanded": "./icons/chocolate/folder-microscopy-open.svg"
+                },
+                "experiments": {
+                    "collapsed": "./icons/chocolate/folder-experiment.svg",
+                    "expanded": "./icons/chocolate/folder-experiment-open.svg"
+                },
+                "Experiments": {
+                    "collapsed": "./icons/chocolate/folder-experiment.svg",
+                    "expanded": "./icons/chocolate/folder-experiment-open.svg"
+                },
+                "experiment": {
+                    "collapsed": "./icons/chocolate/folder-experiment.svg",
+                    "expanded": "./icons/chocolate/folder-experiment-open.svg"
+                },
+                "Experiment": {
+                    "collapsed": "./icons/chocolate/folder-experiment.svg",
+                    "expanded": "./icons/chocolate/folder-experiment-open.svg"
+                },
+                "project": {
+                    "collapsed": "./icons/chocolate/folder-project.svg",
+                    "expanded": "./icons/chocolate/folder-project-open.svg"
+                },
+                "Project": {
+                    "collapsed": "./icons/chocolate/folder-project.svg",
+                    "expanded": "./icons/chocolate/folder-project-open.svg"
+                },
+                "projects": {
+                    "collapsed": "./icons/chocolate/folder-project.svg",
+                    "expanded": "./icons/chocolate/folder-project-open.svg"
+                },
+                "Projects": {
+                    "collapsed": "./icons/chocolate/folder-project.svg",
+                    "expanded": "./icons/chocolate/folder-project-open.svg"
+                },
+                "protocol": {
+                    "collapsed": "./icons/chocolate/folder-protocol.svg",
+                    "expanded": "./icons/chocolate/folder-protocol-open.svg"
+                },
+                "Protocol": {
+                    "collapsed": "./icons/chocolate/folder-protocol.svg",
+                    "expanded": "./icons/chocolate/folder-protocol-open.svg"
+                },
+                "protocols": {
+                    "collapsed": "./icons/chocolate/folder-protocol.svg",
+                    "expanded": "./icons/chocolate/folder-protocol-open.svg"
+                },
+                "Protocols": {
+                    "collapsed": "./icons/chocolate/folder-protocol.svg",
+                    "expanded": "./icons/chocolate/folder-protocol-open.svg"
+                },
+                "writing": {
+                    "collapsed": "./icons/chocolate/folder-writing.svg",
+                    "expanded": "./icons/chocolate/folder-writing-open.svg"
+                },
+                "Writing": {
+                    "collapsed": "./icons/chocolate/folder-writing.svg",
+                    "expanded": "./icons/chocolate/folder-writing-open.svg"
+                },
+                "writings": {
+                    "collapsed": "./icons/chocolate/folder-writing.svg",
+                    "expanded": "./icons/chocolate/folder-writing-open.svg"
+                },
+                "Writings": {
+                    "collapsed": "./icons/chocolate/folder-protocol.svg",
+                    "expanded": "./icons/chocolate/folder-protocol-open.svg"
+                },
+                "paper": {
+                    "collapsed": "./icons/chocolate/folder-paper.svg",
+                    "expanded": "./icons/chocolate/folder-paper-open.svg"
+                },
+                "papers": {
+                    "collapsed": "./icons/chocolate/folder-paper.svg",
+                    "expanded": "./icons/chocolate/folder-paper-open.svg"
+                },
+                "Paper": {
+                    "collapsed": "./icons/chocolate/folder-paper.svg",
+                    "expanded": "./icons/chocolate/folder-paper-open.svg"
+                },
+                "Papers": {
+                    "collapsed": "./icons/chocolate/folder-paper.svg",
+                    "expanded": "./icons/chocolate/folder-paper-open.svg"
+                },
+                "review": {
+                    "collapsed": "./icons/chocolate/folder-review.svg",
+                    "expanded": "./icons/chocolate/folder-review-open.svg"
+                },
+                "reviews": {
+                    "collapsed": "./icons/chocolate/folder-review.svg",
+                    "expanded": "./icons/chocolate/folder-review-open.svg"
+                },
+                "Review": {
+                    "collapsed": "./icons/chocolate/folder-review.svg",
+                    "expanded": "./icons/chocolate/folder-review-open.svg"
+                },
+                "Reviews": {
+                    "collapsed": "./icons/chocolate/folder-review.svg",
+                    "expanded": "./icons/chocolate/folder-review-open.svg"
+                },
+                "grant": {
+                    "collapsed": "./icons/chocolate/folder-grant.svg",
+                    "expanded": "./icons/chocolate/folder-grant-open.svg"
+                },
+                "grants": {
+                    "collapsed": "./icons/chocolate/folder-grant.svg",
+                    "expanded": "./icons/chocolate/folder-grant-open.svg"
+                },
+                "Grant": {
+                    "collapsed": "./icons/chocolate/folder-grant.svg",
+                    "expanded": "./icons/chocolate/folder-grant-open.svg"
+                },
+                "Grants": {
+                    "collapsed": "./icons/chocolate/folder-grant.svg",
+                    "expanded": "./icons/chocolate/folder-grant-open.svg"
+                },
+                "simulation": {
+                    "collapsed": "./icons/chocolate/folder-simulation.svg",
+                    "expanded": "./icons/chocolate/folder-simulation-open.svg"
+                },
+                "simulations": {
+                    "collapsed": "./icons/chocolate/folder-simulation.svg",
+                    "expanded": "./icons/chocolate/folder-simulation-open.svg"
+                },
+                "Simulation": {
+                    "collapsed": "./icons/chocolate/folder-simulation.svg",
+                    "expanded": "./icons/chocolate/folder-simulation-open.svg"
+                },
+                "Simulations": {
+                    "collapsed": "./icons/chocolate/folder-simulation.svg",
+                    "expanded": "./icons/chocolate/folder-simulation-open.svg"
+                },
+                "cloning": {
+                    "collapsed": "./icons/chocolate/folder-cloning.svg",
+                    "expanded": "./icons/chocolate/folder-cloning.svg"
+                },
+                "Cloning": {
+                    "collapsed": "./icons/chocolate/folder-cloning.svg",
+                    "expanded": "./icons/chocolate/folder-cloning.svg"
+                }
             },
             "file_stems": {
                 "astro.config.js": "astro-config",
@@ -437,6 +647,8 @@
                 "todos.txt": "todo",
                 "todo": "todo",
                 "todos": "todo",
+                "TODO": "todo",
+                "TODO.md": "todo",
                 "tsconfig.json": "typescript-config",
                 "tsconfig.app.json": "typescript-config",
                 "tsconfig.editor.json": "typescript-config",
@@ -495,7 +707,21 @@
                 "yarn-error.log": "yarn",
                 ".yarnrc.yml": "yarn",
                 ".yarnrc.yaml": "yarn",
-                "yarn.config.cjs": "yarn"
+                "yarn.config.cjs": "yarn",
+                "notebook": "notebook",
+                "notebook.py": "notebook",
+                "notebook.ipynb": "notebook",
+                "nb": "notebook",
+                "note": "note",
+                "notes": "note",
+                "note.md": "note",
+                "notes.md": "note",
+                "NOTE": "note",
+                "NOTES": "note",
+                "NOTE.md": "note",
+                "NOTES.md": "note",
+                "asset.py": "assets",
+                "assets.py": "assets"
             },
             "file_suffixes": {
                 "asm": "assembly",
@@ -1016,7 +1242,19 @@
                 "z": "zip",
                 "zip": "zip",
                 "zpaq": "zip",
-                "zst": "zip"
+                "zst": "zip",
+                "gb": "genbank",
+                "gbk": "genbank",
+                "fasta": "fasta",
+                "fn": "fasta",
+                "fastq": "fastq",
+                "czi": "microscopy",
+                "entry*.md": "notebook",
+                "R": "r",
+                "Rproj": "r",
+                "m": "matlab",
+                "mat": "matlab",
+                "mlx": "matlab"
             },
             "file_icons": {
                 "default": {
@@ -1369,6 +1607,33 @@
                 },
                 "zip": {
                     "path": "./icons/chocolate/zip.svg"
+                },
+                "genbank": {
+                    "path": "./icons/chocolate/genbank.svg"
+                },
+                "fasta": {
+                    "path": "./icons/chocolate/fasta.svg"
+                },
+                "fastq": {
+                    "path": "./icons/chocolate/fastq.svg"
+                },
+                "microscopy": {
+                    "path": "./icons/chocolate/microscopy.svg"
+                },
+                "notebook": {
+                    "path": "./icons/chocolate/notebook.svg"
+                },
+                "note": {
+                    "path": "./icons/chocolate/note.svg"
+                },
+                "r": {
+                    "path": "./icons/chocolate/R.svg"
+                },
+                "matlab": {
+                    "path": "./icons/chocolate/matlab.svg"
+                },
+                "assets": {
+                    "path": "./icons/chocolate/assets.svg"
                 }
             }
         }

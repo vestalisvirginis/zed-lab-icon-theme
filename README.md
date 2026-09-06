@@ -1,6 +1,9 @@
 <p align="center">
   <h1 align="center"><b>Lab Icons</b></h1>
 </p>
+<details>
+  <img src="assets/chocolate_lab_example.webp"/>
+</details>
 
 
 ## 📷 Previews
@@ -26,8 +29,8 @@
   <img src="assets/warm.webp"/>
 </details>
 
-## 🔧 Usage
 
+## 🔧 Usage
 
 ### Manual Install
 
@@ -48,7 +51,7 @@ There are 5 sets of icons available: Base, Chocolate, Light, Soft, and Warm. The
 
 
 <p align="center">
-Charmed Icons is released under the <a href="LICENSE.md">Creative Commons Attribution 4.0 International License</a>.
+Lab Icons is released under the <a href="LICENSE.md">Creative Commons Attribution 4.0 International License</a>.
 </p>
 
 <div align="center">
@@ -56,3 +59,7 @@ Charmed Icons is released under the <a href="LICENSE.md">Creative Commons Attrib
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg?style=for-the-badge)](LICENSE.md)
 
 </div>
+
+## Credits
+
+The repository was fork from ![jmesrje](https://github.com/jmesrje/zed-charmed-icons) with the original set of icons designed by ![littensy](https://github.com/littensy/charmed-icons).
