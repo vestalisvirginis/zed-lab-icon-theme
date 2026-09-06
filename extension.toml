@@ -1,7 +1,7 @@
-id = "lab-icon-themes"
-name = "Lab Icon Themes"
+id = "lab-icon-theme"
+name = "Lab Icon Theme"
 version = "0.0.2"
-schema_version = 3
+schema_version = 1
 authors = ["vestalisvirginis"]
 description = "Icon Themes for Microbiology"
 repository = "https://github.com/vestalisvirginis/zed-lab-icon-theme"

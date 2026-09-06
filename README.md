@@ -14,6 +14,7 @@
 
 ## 📷 Previews
 
+<details>
   <summary>🍫 Chocolate</summary>
   <img src="assets/chocolate.webp"/>
 </details>
@@ -30,13 +31,19 @@
 
 ```json
 {
-    "icon_theme": "Lab Icons"
+    "icon_theme": "Chocolate Lab Icons"
 }
 ```
 
 ### Icon Types
 
-There are 5 sets of icons available: Base, Chocolate, Light, Soft, and Warm. These can be chosen in the icon theme selector menu or set manually in your config file.
+There are 5 sets of icons available, each selectable from the icon theme selector menu (`icon theme selector: toggle`) or by name in your config file:
+
+- `Base Lab Icons`
+- `Chocolate Lab Icons`
+- `Light Lab Icons`
+- `Soft Lab Icons`
+- `Warm Lab Icons`
 
 
 ## License
